@@ -1,0 +1,37 @@
+Información
+Durante mediados de la década de 1980, Nintendo había consolidado el mercado de videojuegos dentro y fuera de Japón a través de su consola NES (Nintendo Entertainment System/Nintendo Famicom) con importantes políticas y estrategias de comercialización.12​ Gracias a ello, en 1986, había ayudado a revitalizar la industria en Estados Unidos, luego de que esta estuviera en un periodo de crisis financiero comenzado en el año 1983,13​ colocando en una posición dominante en el mercado a comparación de otras compañías (en la mayoría nacionales como Atari) que habían quebrado o perdido una importante confianza y presencia económica a causa de los embates provocados por la mencionada crisis; la compañía habría logrado penetrar en otros mercados, principalmente Europa y Asia, gracias a una estratégica asociación con diferentes compañías para la distribución de sus consolas.
+
+A finales del 1987 la situación en el mercado japonés presentaba cambios, el 30 de octubre de ese mismo año14​ la compañía Hudson Soft en asociación con el fabricante de industria electrónica NEC lanzarían al mercado la consola PC Engine (que sería conocida en otros mercados como el TurboGrafx-16), presentando un diseño compacto, un hardware y gráficos superiores a comparación de la NES, siendo ya un competidor directo.
+
+El interés de NEC en entrar en el mercado de los videojuegos coincidió con el intento fallido de Hudson para vender diseños de chips gráficos para Nintendo. Por otro lado, Sega era otra compañía que venía compitiendo desde hace años por consolidar una consola de videojuegos en el mercado japonés, después de haber realizado fracasos intentos en el lanzamiento y comercialización de otras consolas en el pasado: la SG-1000 en 1983,15​14​ Sega Mark III en 198515​14​ y Sega Master System en 1986,15​14​ la compañía decide diseñar y comercializar una nueva consola basada en la arquitectura de 16 bits16​14​ que pudiera rivalizar superiormente a Nintendo, basándose en el hardware de sus propios sistemas de arcade de aquellos años, el desarrollo de la nueva consola daría frutos y el 29 de octubre de 1988 seria lanzado la Sega Mega Drive/Sega Genesis,16​14​ siendo un sistema que en verdad ofrecía un procesador, gráficos completamente en 16 bits y una calidad de audio superior.
+
+Aunque esas dos consolas no podían competir verdaderamente con la Famicom en cuando salieron a la venta al mercado, los ejecutivos de Nintendo consideraron replantearse su posición una vez que sus competidores podían ofrecer nuevos sistemas verdaderamente superiores a su consola.
+
+
+
+
+
+Opiniones
+Is good
+Durante mediados de la década de 1980, Nintendo había consolidado el mercado de videojuegos dentro y fuera de Japón a través de su consola NES (Nintendo Entertainment System/Nintendo Famicom) con importantes políticas y estrategias de comercialización.
+
+Is good
+Durante mediados de la década de 1980, Nintendo había consolidado el mercado de videojuegos dentro y fuera de Japón a través de su consola NES.
+
+Is good
+Importantes políticas y estrategias de comercialización.
+
+
+
+
+
+
+
+Especificaciones
+Specs
+Velocidad de reloj: 1.79, 2.68 MHz, o 3.58 MHz (NTSC);46​47​ 1,77 MHz, 2,66 MHz o 3,55 MHz (PAL)
+Memoria RAM principal: 128 KB.
+DMA y HDMA
+Coprocesador de sonido: Sony SPC700 de 8 bits.
+Procesador digital de sonido: S-DSP de 16 bits.
+Circuitos S-PPU1 y S-PPU2, unidades de procesamiento de imagen de 16 bits.

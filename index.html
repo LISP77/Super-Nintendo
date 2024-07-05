@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Super Nintendo Proyecto UF1303</title>
+	<style type="text/css">
+		figure img{
+			width: 100%;
+		}
+		a{
+			color: #FFF;
+			text-decoration: none;
+		}
+		body{
+			display: grid;
+			grid-gap: 10px;
+			grid-template-columns: 30% 30% auto;
+			width: 85%;
+			max-width: 1300px;
+			margin: 2% auto;
+			padding: 2%;
+			grid-template-areas: 
+			'h h h'
+			'n n n'
+			'foto m m'
+			'foto g g'
+			'o o e'
+			'f f f'
+			;
+			background-image: url('img/background.png');
+		}
+		header,nav, main, article, aside, section, footer{
+			border: 1px solid #000;
+		}
+
+		header{
+			grid-area: h;
+			background-image: url(img/header.jpg);
+			background-size: cover;
+		}
+
+		header figure{
+			display: inline-block;
+			width: 20%;
+			vertical-align: middle;
+			background-color: #FFFFFF70;
+			border-radius: 50%;
+
+		}
+		header h1{
+			display: inline-block;
+			width: 70%;
+			vertical-align: middle;
+			font-size: 3vw;
+			color: #FFF;
+		}
+
+		nav{
+			grid-area: n;
+			background-color: #000;
+		}
+		nav li{
+			display: inline-block;
+			margin-right: 3%;
+		}
+		aside{
+			grid-area: foto;
+		}
+		main{
+			grid-area: m;
+			text-align: justify;
+			padding: 1%;
+		}
+		section{
+			grid-area: g;
+			text-align: center;
+		}
+		section figure{
+			display: inline-block;
+			width: 15%;
+			margin: 1.5%;
+		}
+		article:first-of-type{
+			grid-area: o;
+			padding: 1%;
+		}
+		article:last-of-type{
+			grid-area: e;
+			padding: 1%;
+		}
+		article:last-of-type th{
+			background-color: #000;
+			color: #FFF;
+		}
+		article:last-of-type tr:nth-of-type(even){
+			background-color: #EEE1EF;
+		}
+		table{
+			border: 1px dotted #000;
+		}
+		footer{
+			grid-area: f;
+			text-align: right;
+			background-image: url('img/footer.jpg');
+			background-size: cover;
+		}
+		footer h3{
+			color: #FFF;
+			padding: 3.5%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="img/logosmall.png" alt="Logo SuperNintendo" title="SuperNintendo" />
+		</figure>
+		<h1>SUPER NINTENDO GRID LAYOUT</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html">
+					INICIO
+				</a>
+			</li>
+			<li>
+				<a href="origen.html">
+					ORIGEN
+				</a>
+			</li>
+			<li>
+				<a href="catalogo.html">
+					CATALOGO
+				</a>
+			</li>
+			<li>
+				<a href="regiones.html">
+					REGIONES
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<aside>
+		<figure>
+			<img src="img/grande.jpg" alt="Versiones SN" title="Versiones" />
+		</figure>
+	</aside>
+	<main>
+		<h2>Información</h2>
+		<p>Durante mediados de la década de 1980, Nintendo había consolidado el mercado de videojuegos dentro y fuera de Japón a través de su consola NES (Nintendo Entertainment System/Nintendo Famicom) con importantes políticas y estrategias de comercialización. Gracias a ello, en 1986, había ayudado a revitalizar la industria en Estados Unidos, luego de que esta estuviera en un periodo de crisis financiero comenzado en el año 1983, colocando en una posición dominante en el mercado a comparación de otras compañías (en la mayoría nacionales como Atari) que habían quebrado o perdido una importante confianza y presencia económica a causa de los embates provocados por la mencionada crisis; la compañía habría logrado penetrar en otros mercados, principalmente Europa y Asia, gracias a una estratégica asociación con diferentes compañías para la distribución de sus consolas.</p>
+		<p>A finales del 1987 la situación en el mercado japonés presentaba cambios, el 30 de octubre de ese mismo añola compañía Hudson Soft en asociación con el fabricante de industria electrónica NEC lanzarían al mercado la consola PC Engine (que sería conocida en otros mercados como el TurboGrafx-16), presentando un diseño compacto, un hardware y gráficos superiores a comparación de la NES, siendo ya un competidor directo.</p>
+		<p>El interés de NEC en entrar en el mercado de los videojuegos coincidió con el intento fallido de Hudson para vender diseños de chips gráficos para Nintendo. Por otro lado, Sega era otra compañía que venía compitiendo desde hace años por consolidar una consola de videojuegos en el mercado japonés, después de haber realizado fracasos intentos en el lanzamiento y comercialización de otras consolas en el pasado: la SG-1000 en 1983, Sega Mark III en 1985 y Sega Master System en 1986, la compañía decide diseñar y comercializar una nueva consola basada en la arquitectura de 16 bits que pudiera rivalizar superiormente a Nintendo, basándose en el hardware de sus propios sistemas de arcade de aquellos años, el desarrollo de la nueva consola daría frutos y el 29 de octubre de 1988 seria lanzado la Sega Mega Drive/Sega Genesis, siendo un sistema que en verdad ofrecía un procesador, gráficos completamente en 16 bits y una calidad de audio superior.</p>
+		<p>Aunque esas dos consolas no podían competir verdaderamente con la Famicom en cuando salieron a la venta al mercado, los ejecutivos de Nintendo consideraron replantearse su posición una vez que sus competidores podían ofrecer nuevos sistemas verdaderamente superiores a su consola.</p>
+	</main>
+	<section>
+		<figure>
+			<img src="img/game1.jpg" alt="Juego" title="Juego" />
+			<figcaption>Juego</figcaption>
+		</figure>
+		<figure>
+			<img src="img/game2.jpg" alt="Juego" title="Juego" />
+			<figcaption>Juego</figcaption>
+		</figure>
+		<figure>
+			<img src="img/game3.jpg" alt="Juego" title="Juego" />
+			<figcaption>Juego</figcaption>
+		</figure>
+		<figure>
+			<img src="img/game4.jpg" alt="Juego" title="Juego" />
+			<figcaption>Juego</figcaption>
+		</figure>
+		<figure>
+			<img src="img/game5.jpg" alt="Juego" title="Juego" />
+			<figcaption>Juego</figcaption>
+		</figure>
+	</section>
+	<article>
+		<h3>Opiniones</h3>
+		<p><b>Is good</b><br />
+		Durante mediados de la década de 1980, Nintendo había consolidado el mercado de videojuegos dentro y fuera de Japón a través de su consola NES (Nintendo Entertainment System/Nintendo Famicom) con importantes políticas y estrategias de comercialización.</p>
+		<p><b>Is good</b><br />
+		Durante mediados de la década de 1980, Nintendo había consolidado el mercado de videojuegos dentro y fuera de Japón a través de su consola NES.</p>
+		<p><b>Is good</b><br />
+		Importantes políticas y estrategias de comercialización.</p>
+
+	</article>
+	<article>
+		<h3>Especificaciones</h3>
+		<table>
+			<tr>
+				<th>Specs</th>
+			</tr>
+			<tr>
+				<td>Velocidad de reloj: 1.79, 2.68 MHz, o 3.58 MHz (NTSC); 1,77 MHz, 2,66 MHz o 3,55 MHz (PAL)</td>
+			</tr>
+			<tr>
+				<td>Memoria RAM principal: 128 KB.</td>
+			</tr>
+			<tr>
+				<td>DMA y HDMA</td>
+			</tr>
+			<tr>
+				<td>Coprocesador de sonido: Sony SPC700 de 8 bits.</td>
+			</tr>
+			<tr>
+				<td>Procesador digital de sonido: S-DSP de 16 bits.</td>
+			</tr>
+			<tr>
+				<td>Circuitos S-PPU1 y S-PPU2, unidades de procesamiento de imagen de 16 bits.</td>
+			</tr>
+		</table>
+	</article>
+	<footer>
+		<h3>By Albert</h3>
+	</footer>
+</body>
+</html>
